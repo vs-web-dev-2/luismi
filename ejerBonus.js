@@ -1,4 +1,4 @@
-//Rellenar un array de 100 numeros
+//Rellenar un array de 100 numeros aleatorios
 let arrayCreado = [];
 
 for(let i=1;i<100;i++){
