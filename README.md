@@ -1,5 +1,9 @@
 # Luis Miguel González
 
-No programo en JavaScript
+## Conocimientos
 
-Vivo en Madrid
+- Programo en **JavaScript**
+
+## Datos Personales
+
+- Vivo en _Madrid_
