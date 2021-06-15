@@ -32,21 +32,21 @@ console.log(arrayPrimos.map(cuadrado));
 
 
 //Juego FizzBuzz
-const resultadoDeFizzBuzz = [];
+const resultadoFizzBuzz = [];
 for(let j=1; j<100;j++){
     if(j%3===0 && j%5===0){
-        resultadoDeFizzBuzz.push("Fizz Buzz");
+        resultadoFizzBuzz.push("Fizz Buzz");
     }else{
         if(j%3===0){
-            resultadoDeFizzBuzz.push("Fizz");
+            resultadoFizzBuzz.push("Fizz");
         }else{
             if(j%5===0){
-                resultadoDeFizzBuzz.push("Buzz");
+                resultadoFizzBuzz.push("Buzz");
             }else{
-                resultadoDeFizzBuzz.push(j);
+                resultadoFizzBuzz.push(j);
             }
         }
     }
 }
 
-console.log(resultadoDeFizzBuzz);
+console.log(resultadoFizzBuzz);
