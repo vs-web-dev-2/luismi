@@ -53,3 +53,16 @@ nodoTecleo.addEventListener('input', () => {
         }
     }
 });
+
+
+
+//Pruebas absurdas varias
+//Ejemplo de evento para mostrar posición del ratón cuando se da doble click
+//También muestra la fecha en el momento del doble click
+const nodoRaton = document.querySelector("html");
+nodoRaton.addEventListener('dblclick', e => {
+    console.log(e.clientX + " " + e.clientY);
+    let timestampHoy = Date.now();
+    let fechaHoy = new Date(timestampHoy);
+    console.log(fechaHoy);
+});
