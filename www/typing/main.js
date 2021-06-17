@@ -26,6 +26,7 @@ const nodoBotonEmpezar = document.getElementById("empezar");
 nodoBotonEmpezar.addEventListener('click', function onClick() {
     console.log("Click en empezar");
     nodoTecleo.value = "";
+    nodoTecleo.disabled = false;
     nodoMensaje.innerText = "Ánimo";
     inicio = Date.now();
 });
