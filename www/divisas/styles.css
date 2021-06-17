@@ -1,0 +1,25 @@
+body{
+    margin-left: 10px;
+}
+
+.divisa{
+    font-weight: bold;
+    margin-right: 10px;
+    width: 40px;
+    display: inline-block;
+}
+
+.cotizacion{
+    font-style: italic;
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+}
+
+.cotizacionInv{
+    font-style: italic;
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+}
+
