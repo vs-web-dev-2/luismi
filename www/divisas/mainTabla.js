@@ -25,7 +25,7 @@ function procesarDatos(data) {
     const claves = Object.keys(objetoCotizaciones);
 
     claves.forEach((divisa) => {
-        const nodoDivisaItem = document.createElement("tr");
+        const nodoDivisaRow = document.createElement("tr");
 
         const nodoDivisaTd = document.createElement("td");
         nodoDivisaTd.innerText = divisa;
@@ -39,10 +39,10 @@ function procesarDatos(data) {
         nodoCotizacionInvTd.innerText = (1 / objetoCotizaciones[divisa]).toFixed(6);
         nodoCotizacionInvTd.className = "cotizacionInv";
 
-        nodoDivisaItem.appendChild(nodoDivisaTd);
-        nodoDivisaItem.appendChild(nodoCotizacionTd);
-        nodoDivisaItem.appendChild(nodoCotizacionInvTd);
-        nodoCotizacionesTable.appendChild(nodoDivisaItem);
+        nodoDivisaRow.appendChild(nodoDivisaTd);
+        nodoDivisaRow.appendChild(nodoCotizacionTd);
+        nodoDivisaRow.appendChild(nodoCotizacionInvTd);
+        nodoCotizacionesTable.appendChild(nodoDivisaRow);
     });
 }
 
